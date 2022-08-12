@@ -1,6 +1,11 @@
 import random
 
-name = "Joe"
+
+print("Hello!, Do you want to know if you will be rich?")
+print("Please insert a number btween 1 - 9.")
+
+ask = input("input number: ")
+name = "You"
 question = "Will I become rich?"
 answer = ""
 
@@ -26,7 +31,7 @@ elif random_number == 9:
 else:
   answer = "Error"
   
-print (name + " ask:" + question)
+print (name + " asked: " + question)
 print ("Magic 8-Ball's answer: " + answer)
   
 if name == "":
